@@ -41,3 +41,81 @@
   </script>
 </body>
 </html>
+/* Design général */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #222;
+  transition: background-color 0.3s, color 0.3s;
+  line-height: 1.7;
+}
+
+header {
+  background-color: #e34c26;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+header button {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  padding: 10px 15px;
+  background-color: white;
+  color: #e34c26;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.html-image {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.text {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #f2f2f2;
+  margin-top: 40px;
+}
+
+/* Dark mode */
+body.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark header {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+body.dark footer {
+  background-color: #1a1a1a;
+}
+
+body.dark header button {
+  background-color: #333;
+  color: white;
+}p
