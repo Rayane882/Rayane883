@@ -119,3 +119,32 @@ body.dark header button {
   background-color: #333;
   color: white;
 }p
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>HTML project</h1>
+    <p>كل المعلومات التي تحتاجها عن لغة البرمجة HTML</p>
+    <input type="text" placeholder="ابحث عن معلومات حول HTML...">
+  </header>
+
+  <main>
+    <section class="box">
+      <h2>مقدمة إلى <span class="highlight">HTML</span></h2>
+      <p>
+        HTML (لغة ترميز النص الفائق) هي العمود الفقري لجميع مواقع الويب. إنها لغة الترميز القياسية لإنشاء صفحات الويب وهيكلتها.
+        تعرف HTML المحتوى والهيكل الأساسي لصفحة الويب.
+      </p>
+      <p>
+        تم إنشاء HTML في الأصل بواسطة تيم بيرنرز لي في عام 1991، وقد تطورت عبر السنين مع إصدارات جديدة تضيف المزيد من الإمكانيات والوظائف.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
